@@ -99,7 +99,7 @@ void fn_mostrarMensajeSolo(char mensaje[]);
 /// @return ME DEVUELVE EL RESULTADOS DE MIS OPERACIONES A TRAVES DE PUNTEROS
 int fn_mostrarCalculos(float *costoDebitoAer,float *costoDebitoLat,float *costoCreditoAer,float *costoCreditoLat,float *costoBtcAer,float *costoBtcLat,float *costoxKmAer,float *costoxKmLat,float *diferenciaPrecio,int precioAerolineas, int precioLatam, int kmIngresados);
 
-/// @brief DISCULPEN ESTA DESPROLIJIDAD PERO ES UNA FUNCION CON EL OBJETIVO DE MOSTRAR LOS RESULTADOS DEL PUNTO 4 DEL TP_1 Y AGRUPARLOS A TODOS EN UNA SOLA FUNCION.
+/// @brief DISCULPEN ESTA DESPROLIJIDAD PERO ES UNA FUNCION CON EL OBJETIVO DE MOSTRAR LOS RESULTADOS DEL PUNTO 4 DEL TP_1 Y AGRUPARLOS A TODOS EN UNA SOLA FUNCION. CADA MENSAJE ES UNA LINEA DE LA CONSIGNA DEL PUNTO 4 Y CADA PARAMETRO DE RESULTADO ES UN VALOR CON LA RESPUESTA
 ///
 /// @param mensaje1
 /// @param resultado1
@@ -125,7 +125,7 @@ int fn_mostrarCalculos(float *costoDebitoAer,float *costoDebitoLat,float *costoC
 /// @param resultado11
 /// @param mensaje12
 /// @param resultado12
-/// @return
+/// @return ESTO ME DEVUELVE TODOS LOS MENSAJES INGRESADOS QUE LE DAN FORMA AL MENU Y TODAS LOS VALORES DE RESULTADOS QUE OBTUVE EN EL PUNTO 3 DEL TP_1
 void fn_mostrarResultados(char mensaje1[], int resultado1,char mensaje2[], int resultado2,char mensaje3[], float resultado3,char mensaje4[], float resultado4,char mensaje5[], float resultado5,char mensaje6[], float resultado6,char mensaje7[], int resultado7, char mensaje8[], float resultado8, char mensaje9[], float resultado9,char mensaje10[], float resultado10, char mensaje11[], float resultado11, char mensaje12[], float resultado12);
 
 #endif /* FUNCIONES_H_ */
